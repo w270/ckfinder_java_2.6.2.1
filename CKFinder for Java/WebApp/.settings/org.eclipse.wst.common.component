@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="CKFinderJava-2.6.2.1">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="CKFinder-2.6.2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CKFinder/CKFinder">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="CKFinderPlugin-FileEditor-2.6.2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CKFinderPlugin-FileEditor/CKFinderPlugin-FileEditor">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="CKFinderPlugin-ImageResize-2.6.2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CKFinderPlugin-ImageResize/CKFinderPlugin-ImageResize">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="CKFinderPlugin-Watermark-2.6.2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/CKFinderPlugin-Watermark/CKFinderPlugin-Watermark">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="CKFinderJava"/>
+        <property name="java-output-path" value="/CKFinderJava/target/classes"/>
+    </wb-module>
+</project-modules>
