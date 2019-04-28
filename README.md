@@ -1,0 +1,1 @@
+# ckfinder_java_2.6.2.1
